@@ -150,6 +150,9 @@ a:hover {
 .btn {
     border-radius: 0px;
 }
+.float-left {
+    float: left;
+}
 
 .navbar-toggle {
     border: none;
