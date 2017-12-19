@@ -153,7 +153,27 @@ a:hover {
 .float-left {
     float: left;
 }
-
+.carousel-image {
+    height: 500px !important;
+    width: 500px;
+}
+.item-images {
+    padding: 30px;
+}
+.item-carousel {
+    max-width: 500px;
+    max-height: 750px !important;
+    overflow: none;
+    /*height="750" width="500"*/
+}
+.item-carousel img {
+    max-width: 500px;
+    max-height: 750px !important;
+    overflow: none;
+}
+.item-details {
+    padding: 30px;
+}
 .navbar-toggle {
     border: none;
 }
