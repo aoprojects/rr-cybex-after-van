@@ -161,6 +161,19 @@ footer {
         height: 70%;
     }
 }
+/*to make images fit within the container on mobile for index page*/
+@media only screen and (min-width: 510px) and (max-width: 570px) {
+    .img-portfolio {
+        margin-left: 5% !important;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 509px) {
+    .img-portfolio {
+        margin-left: 1% !important;
+        max-width: 100%;
+    }
+}
 
 
 /* Cybex Arc Trainer Custom Styles*/
