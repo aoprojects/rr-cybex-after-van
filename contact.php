@@ -95,7 +95,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-10 col-lg-offset-1">
                 <h3 class="text-center">Send Us a Quick Message</h3>
-                <form name="sentMessage" id="contactForm" method="post" novalidate>
+                <form name="sentMessage" id="contactForm" method="post" action="bin/contact_me.php" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label for="name">Your Name:</label>
